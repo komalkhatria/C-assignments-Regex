@@ -1,0 +1,125 @@
+1) int a = 5;
+if (a++ > 5) {
+printf("a was greater than 5\n");
+} else {
+printf("a was not greater than 5\n");
+}
+printf("Now, a is: %d\n", a);
+
+Output:
+a was not greater than 5
+Now, a is: 6
+
+-------------------------------------------------
+
+2) int a = 5;
+if (++a > 5) {
+printf("a is greater than 5\n");
+} else {
+printf("a is not greater than 5\n");
+}
+printf("Now, a is: %d\n", a);
+
+Output:
+a is greater than 5
+Now, a is: 6
+
+---------------------------------------------------
+
+3) int b = 5;
+if (b-- < 5) {
+printf("b was less than 5\n");
+} else {
+printf("b was not less than 5\n");
+}
+printf("Now, b is: %d\n", b);
+
+Output:
+b was not less than 5
+Now, b is: 4
+
+-----------------------------------------------------
+
+4) int b = 5;
+if (--b < 5) {
+printf("b is less than 5\n");
+} else {
+printf("b is not less than 5\n");
+}
+printf("Now, b is: %d\n", b);
+
+Output:
+b is less than 5
+Now, b is: 4
+
+------------------------------------------------------
+
+5) int x = 15;
+if (x > 10) {
+x++; // Increment x
+if (x > 20) {
+printf("x is now greater than 20\n");
+} else {
+printf("x is not greater than 20\n");
+}
+} else {
+printf("x is not greater than 10\n");
+}
+printf("Now, x is: %d\n", x);
+
+Output:
+x is not greater than 20
+Now, x is: 16
+
+-----------------------------------------------------
+
+6) int a = 0;
+a++; // Increment a
+a--; // Decrement a
+if (a > 0) {
+printf("a is positive\n");
+} else {
+printf("a is not positive\n");
+}
+printf("Now, a is: %d\n", a);
+
+Output:
+a is not positive
+Now, a is: 0
+
+------------------------------------------------------
+
+7) int c = 8;
+c++; // Increment c
+c--; // Decrement c
+c += 5; // Increment c by 5
+c -= 10; // Decrement c by 10
+if (c >= 0) {
+printf("c is greater than or equal to 0\n");
+} else {
+printf("c is less than 0\n");
+}
+printf("Now, c is: %d\n", c);
+
+Output:
+c is greater than or equal to 0
+Now, c is: 3
+
+----------------------------------------------------------
+
+8) int d = 12;
+int e = 8;
+d++; // Increment d
+e--; // Decrement e
+if (d > e) {
+printf("d is greater than e\n");
+} else if (d < e) {
+printf("d is less than e\n");
+} else {
+printf("d is equal to e\n");
+}
+printf("Now, d is: %d and e is: %d\n", d, e);
+
+Output:
+d is greater than e
+Now, d is: 13 and e is: 7
